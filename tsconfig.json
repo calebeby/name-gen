@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "error",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "types": ["preact"]
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "include": ["**/*.js", "**/*.ts", "**/*.tsx"]
+}
